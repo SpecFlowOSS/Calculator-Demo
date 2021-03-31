@@ -37,7 +37,7 @@
     function addNumbersSlow() {
       setTimeout(function () {
         addNumbers();
-      }, 1500);
+      }, 500);
     }
 
 
@@ -68,8 +68,7 @@
         </div>
       </div>
       <div>
-        <button id="add-button" type="submit" class="btn btn-primary" onclick="addNumbers(); return false;"><i class="bi-plus-circle"></i> Add</button>
-        <button id="add-slow-button" type="submit" class="btn" onclick="addNumbersSlow(); return false;"><i class="bi-plus-circle-dotted"></i> Add slow</button>
+        <button id="add-button" type="submit" class="btn btn-primary" onclick="addNumbersSlow(); return false;"><i class="bi-plus-circle"></i> Add</button>
         <button id="reset-button" type="submit" class="btn" onclick="reset(); return false;"><i
           class="bi-x-circle" style="color:red"></i> Reset</button>
       </div>
